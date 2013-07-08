@@ -3,6 +3,7 @@ $.extend( $.fn.dataTableExt.oStdClasses, {
 	"sWrapper": "dataTables_wrapper form-inline"
 } );
 
+
 /* API method to get paging information */
 $.fn.dataTableExt.oApi.fnPagingInfo = function ( oSettings )
 {
@@ -30,7 +31,7 @@ $.extend( $.fn.dataTableExt.oPagination, {
 			};
 
 			$(nPaging).addClass('pagination').append(
-				'<ul>'+
+				'<ul>' +
 					'<li class="prev disabled"><a href="#">&larr; '+oLang.sPrevious+'</a></li>'+
 					'<li class="next disabled"><a href="#">'+oLang.sNext+' &rarr; </a></li>'+
 				'</ul>'
